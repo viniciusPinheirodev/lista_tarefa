@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+header, form, ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+header {
+    padding-top: 300px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+form input, button {
+    padding: 5px;
+    margin: 2px;
+    font-size: 20px;
+}
+
+form button {
+    font-weight: bold;
+}
+
+ul {
+    display: block;
+}
+
+li {
+    cursor: pointer;
+    list-style: inside;
+    font-size: 18px;
+}
+
+.feita {
+    text-decoration: line-through;
+}
+
